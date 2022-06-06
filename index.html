@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- all_css_link -->
+  <!-- google_fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Rubik:wght@400;500;600;700&display=swap">
+  <!-- web_friendly_css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- fontawesome_link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- jquery_plugin_css -->
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/venobox.min.css">
+  <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <!-- custom_css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Finix</title>
+</head>
+<body>
+  <!-- header_section_start -->
+  <header id="header_section">
+    <nav class="navbar navbar-expand-xl navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="/finix-bank-web/">
+          <img src="images/logo.png" alt="image not found">
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-xl-0 main_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                pages <i class="fa-solid fa-angle-down"></i>
+              </a>
+              <ul class="dropdown_menu">
+                <li><a href="#">apply now</a></li>
+                <li><a href="#">testimonials</a></li>
+                <li><a href="#">sign in</a></li>
+                <li><a href="#">sign up</a></li>
+                <li><a href="#">terms & condition</a></li>
+                <li><a href="#">privacy policy</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">loans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">funding</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+          <div class="header_info d-flex align-items-center">
+            <div class="search_icon ms-3 pe-3">
+              <i class="fa-solid fa-magnifying-glass search_icons"></i>
+              <div class="search_box" style="display: none;">
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+            <div class="header_call ms-3 d-flex align-items-center">
+              <div class="call_icon me-2">
+                <img src="images/icon/001-telephone.png" alt="image not found">
+              </div>
+              <div class="call_info ms-2">
+                <span class="d-block">Call Now</span>
+                <a href="tel:01916160514">01916160514</a>
+              </div>
+            </div>
+            <div class="menu_button ms-3">
+              <a href="#" class="btn btn-finix">Apply now</a>
+            </div>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas d-xl-none offcanvas-start" tabindex="-1" id="offcanvasRight" data-bs-scroll="true">
+          <div class="offcanvas-header d-flex justify-content-end">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="search_box_responsive my-2">
+              <form class="d-flex">
+                <input class="form-control me-1 py-3 ps-3" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+            <ul class="list-unstyled responsive_menu">
+              <li class="ps-3">
+                <a href="#">Home</a>
+              </li>
+              <li class="ps-3">
+                <a href="#">About</a>
+              </li>
+              <li class="ps-3">
+                <a href="#">Service</a>
+              </li>
+              <li>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <span class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne">
+                        Pages
+                      </button>
+                    </span>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li class="ps-5"><a href="#">Apply Now</a></li>
+                          <li class="ps-5"><a href="#">Testimonials</a></li>
+                          <li class="ps-5"><a href="#">Sign In</a></li>
+                          <li class="ps-5"><a href="#">Sign Up</a></li>
+                          <li class="ps-5"><a href="#">Terms & Condition</a></li>
+                          <li class="ps-5"><a href="#">Privacy Policy</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+              <li class="ps-3">
+                <a href="#">Loan</a>
+              </li>
+              <li class="ps-3">
+                <a href="#">Funding</a>
+              </li>
+              <li class="ps-3">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="call_info ms-2 d-flex justify-content-between">
+              <span class="ms-3">Call Now</span>
+              <div>
+                <img src="images/icon/001-telephone.png" class="me-2" alt="image not found">
+                <a class="me-3" href="tel:01916160514">01916160514</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="slider_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-7 col-sm-8 slider_content_wrap">
+            <div class="header_content average_content">
+              <h6>We are here for</h6>
+              <h1>
+                We believe in those made to do more
+              </h1>
+              <p>
+                Loans are advantageous as a relatively inexpensive way of borrowing money. Start or grow your own
+                business
+              </p>
+              <div class="slider_button mt-4">
+                <a href="#" class="btn btn-finix">View more</a>
+              </div>
+            </div>
+            <div class="header_social_icons">
+              <ul class="list-unstyled d-flex">
+                <li><span></span>Follow us</span></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- client_section_start -->
+  <section id="client_section">
+    <div class="container" data-aos="fade-right">
+      <div class="clients">
+        <div class="client text-center">
+          <img src="images/slider1.png" alt="image not found">
+        </div>
+        <div class="client text-center">
+          <img src="images/slider2.png" alt="image not found">
+        </div>
+        <div class="client text-center">
+          <img src="images/slider3.png" alt="image not found">
+        </div>
+        <div class="client text-center">
+          <img src="images/slider4.png" alt="image not found">
+        </div>
+        <div class="client text-center">
+          <img src="images/slider5.png" alt="image not found">
+        </div>
+        <div class="client text-center">
+          <img src="images/slider3.png" alt="image not found">
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- about_section_start -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 about_img_detail text-lg-start text-center" data-aos="fade-down">
+          <img src="images/about.png" class="img-fluid" alt="image not found">
+          <div class="about_img_text">
+            <h3 class="mt-sm-5 mt-3 mb-0">
+              25
+            </h3>
+            <span class="text-capitalize">years of experience</span>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-lg-0 mt-5" data-aos="fade-up">
+          <div class="about_content average_content">
+            <h6>
+              About company
+            </h6>
+            <h2>
+              We have been working very efficiently with loan and funding for 25 years.
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+            </p>
+            <strong>In business, we focus on 3 things.</strong>
+            <ul class="list-unstyled mt-4 business_things">
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Useful info
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Reliability
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Innovation
+              </li>
+            </ul>
+            <div class="about_button mt-4">
+              <a href="#" class="btn btn-finix">View more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- chooce_section_start -->
+  <section id="choose_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="choose_content average_content">
+            <h6>
+              Transparent process
+            </h6>
+            <h3>
+              Why people choose us
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+            <div class="choose_img text-lg-start text-center">
+              <img src="images/choose.png" class="img-fluid" alt="image not found">
+              <a class="venobox" data-vbtype="video" href="https://www.youtube.com/watch?v=WTcZDnYy-UU">
+                <i class="fa-solid fa-circle-play"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-lg-0 mt-5" data-aos="fade-down">
+          <div class="row fetures">
+            <div class="col-md-6 mb-4">
+              <div class="fetures_item text-center mt-md-4">
+                <div class="fetures_img">
+                  <img src="images/icon/002-guarantee.png" alt="image not found">
+                </div>
+                <h3 class="py-3 mt-3 text-capitalize">
+                  guarantee
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="fetures_item text-center">
+                <div class="fetures_img">
+                  <img src="images/icon/003-speed.png" alt="image not found">
+                </div>
+                <h3 class="py-3 mt-3 text-capitalize">
+                  guarantee
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="fetures_item text-center">
+                <div class="fetures_img">
+                  <img src="images/icon/004-reliability.png" alt="image not found">
+                </div>
+                <h3 class="py-3 mt-3 text-capitalize">
+                  guarantee
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="fetures_item text-center marginTop">
+                <div class="fetures_img">
+                  <img src="images/icon/005-user-experience.png" alt="image not found">
+                </div>
+                <h3 class="py-3 mt-3 text-capitalize">
+                  guarantee
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- applynow_section_start -->
+  <section id="applynow_section">
+    <div class="container">
+      <div class="applynow_content average_content text-center" data-aos="zoom-in">
+        <h6>
+          Funding circles
+        </h6>
+        <h3>
+          You deserve a better business loan
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+      </div>
+      <div class="row py-md-5">
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="apply_process average_content">
+            <h2 class="mb-4">
+              We usually follow 4 steps to get a better business loans.
+            </h2>
+            <div class="step_timeline">
+              <ul>
+                <li data-counter="1">
+                  <strong>
+                    Apply in 10 minutes
+                  </strong>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </li>
+                <li data-counter="2">
+                  <strong>
+                    Hear from us in 1 hour
+                  </strong>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </li>
+                <li data-counter="3">
+                  <strong>
+                    A decision in 24 hours
+                  </strong>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </li>
+                <li data-counter="4">
+                  <strong>
+                    Your loan is funded
+                  </strong>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="apply_button mt-4">
+            <a href="#" class="btn btn-finix">Apply now</a>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-lg-0 mt-5" data-aos="fade-down">
+          <div class="calculation_rate py-5 px-5">
+            <div class="average_content text-center">
+              <h6>
+                Calculate your rate
+              </h6>
+              <h3>
+                How much do you need?
+              </h3>
+            </div>
+            <div class="calculate_form mt-5">
+              <form action="#">
+                <div class="mb-3">
+                  <label class="form-label">Type The Money</label>
+                  <input type="text" class="form-control p-2" placeholder="$1000">
+                </div>
+                <div class="mb-3">
+                  <label for="select" class="form-label">Select The Month/Years</label>
+                  <select class="p-2">
+                    <option value="1">1 Month</option>
+                    <option value="2">2 Month</option>
+                    <option value="3">3 Month</option>
+                    <option value="4">4 Month</option>
+                    <option value="5">5 Month</option>
+                    <option value="6">6 Month</option>
+                    <option value="7">1 Year</option>
+                    <option value="8">2 Year</option>
+                    <option value="9">3 Year</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Borrowing</label>
+                  <input type="text" class="form-control p-2" placeholder="$10000">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Term Of Use</label>
+                  <input type="text" class="form-control p-2" placeholder="6 month">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">The Total You Will Pay</label>
+                  <input type="text" class="form-control p-2" placeholder="$11200">
+                </div>
+                <div class="d-grid gap-2">
+                  <button type="submit" class="btn btn-finix">Apply for this loan</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- call-to-action_section_start -->
+  <section class="call-to-action" data-aos="fade-right">
+    <div class="container">
+      <div class="call-to-action-body">
+        <div class="row">
+          <div class="col-lg-7 text-lg-start text-center">
+            <h2>
+              We are here to help your business Call to discuss your Solution
+            </h2>
+          </div>
+          <div
+            class="col-lg-5 d-md-flex align-items-center justify-content-lg-start justify-content-center mt-lg-0 mt-4 text-center">
+            <div class="cal-to-action-phone mx-md-0 mx-auto">
+              <img src="images/icon/001-telephone.png" alt="image not found">
+            </div>
+            <a href="tel:01916160514">01916160514</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- company_section_start -->
+  <section id="company">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-down">
+          <div class="average_content">
+            <h3>
+              Our company values
+            </h3>
+            <div class="values d-flex align-items-start mb-2 mt-5">
+              <div class="values_logo me-3">
+                <img src="images/icon/006-lightbulb.png" alt="">
+              </div>
+              <div class="values_details">
+                <h4 class="text-capitalize">
+                  innovative
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna
+                  aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="values d-flex align-items-start mb-2">
+              <div class="values_logo me-3">
+                <img src="images/icon/007-talent-search.png" alt="">
+              </div>
+              <div class="values_details">
+                <h4 class="text-capitalize">
+                  talent
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna
+                  aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="values d-flex align-items-start mb-2">
+              <div class="values_logo me-3">
+                <img src="images/icon/008-keys.png" alt="">
+              </div>
+              <div class="values_details">
+                <h4 class="text-capitalize">
+                  enabling
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna
+                  aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="values d-flex align-items-start mb-2">
+              <div class="values_logo me-3">
+                <img src="images/icon/009-responsibility.png" alt="">
+              </div>
+              <div class="values_details">
+                <h4 class="text-capitalize">
+                  commercially responsible
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna
+                  aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up">
+          <div
+            class="company_banner d-flex align-items-center h-100 justify-content-lg-start justify-content-center mt-lg-0 mt-4">
+            <img src="images/company.png" class="img-fluid" alt="image not found">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- professional_service_section_start -->
+  <section id="professional_service">
+    <div class="container">
+      <div class="professional_content average_content text-center" data-aos="zoom-in">
+        <h6>
+          Knowledge of the market
+        </h6>
+        <h3>
+          Only the best professional services
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+      </div>
+      <div class="service_teg text-center mt-5 mb-4" data-aos="fade-right">
+        <div class="service_logo">
+          <div class="service_img">
+            <img src="images/icon/010-agriculture.png" alt="images not found">
+          </div>
+          <h5>
+            agricultural loan
+          </h5>
+        </div>
+        <div class="service_logo">
+          <div class="service_img">
+            <img src="images/icon/011-personal.png" alt="images not found">
+          </div>
+          <h5>
+            personal loan
+          </h5>
+        </div>
+        <div class="service_logo">
+          <div class="service_img">
+            <img src="images/icon/012-loan.png" alt="images not found">
+          </div>
+          <h5>
+            business loan
+          </h5>
+        </div>
+        <div class="service_logo">
+          <div class="service_img">
+            <img src="images/icon/013-mortarboard.png" alt="images not found">
+          </div>
+          <h5>
+            educational loan
+          </h5>
+        </div>
+        <div class="service_logo">
+          <div class="service_img">
+            <img src="images/icon/014-loan-1.png" alt="images not found">
+          </div>
+          <h5>
+            house loan
+          </h5>
+        </div>
+        <div class="service_logo">
+          <div class="service_img">
+            <img src="images/icon/015-money.png" alt="images not found">
+          </div>
+          <h5>
+            payday loan
+          </h5>
+        </div>
+        <div class="service_logo">
+          <div class="service_img">
+            <img src="images/icon/020-car.png" alt="images not found">
+          </div>
+          <h5>
+            car loan
+          </h5>
+        </div>
+      </div>
+      <div class="service_details mt-5" data-aos="zoom-in">
+        <div class="service_content">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <img src="images/services-tab.png" class="img-fluid" alt="image not found">
+            </div>
+            <div class="col-lg-6">
+              <div class="service_tab_content1">
+                <h4>
+                  Agricultural loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna
+                  aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                  facilisis.
+                </p>
+              </div>
+              <div class="service_tab_content2">
+                <h4>
+                  Types of business loan
+                </h4>
+                <ul>
+                  <li>Secured loans</li>
+                  <li>Unsecured loans</li>
+                  <li>Revolving credit facilities</li>
+                  <li>Business cash advances</li>
+                </ul>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Eligibility and criteria for Agricultural loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Agricultural loan guide
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service_content">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <img src="images/services-tab.png" class="img-fluid" alt="image not found">
+            </div>
+            <div class="col-lg-6">
+              <div class="service_tab_content1">
+                <h4>
+                  Personal loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                  lacus vel facilisis.
+                </p>
+              </div>
+              <div class="service_tab_content2">
+                <h4>
+                  Types of business loan
+                </h4>
+                <ul>
+                  <li>Secured loans</li>
+                  <li>Unsecured loans</li>
+                  <li>Revolving credit facilities</li>
+                  <li>Business cash advances</li>
+                </ul>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Eligibility and criteria for Personal loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Personal loan guide
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service_content">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <img src="images/services-tab.png" class="img-fluid" alt="image not found">
+            </div>
+            <div class="col-lg-6">
+              <div class="service_tab_content1">
+                <h4>
+                  Business loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                  lacus vel facilisis.
+                </p>
+              </div>
+              <div class="service_tab_content2">
+                <h4>
+                  Types of business loan
+                </h4>
+                <ul>
+                  <li>Secured loans</li>
+                  <li>Unsecured loans</li>
+                  <li>Revolving credit facilities</li>
+                  <li>Business cash advances</li>
+                </ul>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Eligibility and criteria for Business loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Business loan guide
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service_content">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <img src="images/services-tab.png" class="img-fluid" alt="image not found">
+            </div>
+            <div class="col-lg-6">
+              <div class="service_tab_content1">
+                <h4>
+                  Education loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                  lacus vel facilisis.
+                </p>
+              </div>
+              <div class="service_tab_content2">
+                <h4>
+                  Types of business loan
+                </h4>
+                <ul>
+                  <li>Secured loans</li>
+                  <li>Unsecured loans</li>
+                  <li>Revolving credit facilities</li>
+                  <li>Business cash advances</li>
+                </ul>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Eligibility and criteria for Education loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Education loan guide
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service_content">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <img src="images/services-tab.png" class="img-fluid" alt="image not found">
+            </div>
+            <div class="col-lg-6">
+              <div class="service_tab_content1">
+                <h4>
+                  House loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                  lacus vel facilisis.
+                </p>
+              </div>
+              <div class="service_tab_content2">
+                <h4>
+                  Types of business loan
+                </h4>
+                <ul>
+                  <li>Secured loans</li>
+                  <li>Unsecured loans</li>
+                  <li>Revolving credit facilities</li>
+                  <li>Business cash advances</li>
+                </ul>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Eligibility and criteria for House loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  House loan guide
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service_content">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <img src="images/services-tab.png" class="img-fluid" alt="image not found">
+            </div>
+            <div class="col-lg-6">
+              <div class="service_tab_content1">
+                <h4>
+                  Payday loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                  lacus vel facilisis.
+                </p>
+              </div>
+              <div class="service_tab_content2">
+                <h4>
+                  Types of business loan
+                </h4>
+                <ul>
+                  <li>Secured loans</li>
+                  <li>Unsecured loans</li>
+                  <li>Revolving credit facilities</li>
+                  <li>Business cash advances</li>
+                </ul>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Eligibility and criteria for Payday loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Payday loan guide
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service_content">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <img src="images/services-tab.png" class="img-fluid" alt="image not found">
+            </div>
+            <div class="col-lg-6">
+              <div class="service_tab_content1">
+                <h4>
+                  Car loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                  lacus vel facilisis.
+                </p>
+              </div>
+              <div class="service_tab_content2">
+                <h4>
+                  Types of business loan
+                </h4>
+                <ul>
+                  <li>Secured loans</li>
+                  <li>Unsecured loans</li>
+                  <li>Revolving credit facilities</li>
+                  <li>Business cash advances</li>
+                </ul>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Eligibility and criteria for Car loan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+              <div class="service_tab_content3">
+                <h4>
+                  Car loan guide
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- clients_feedback_section_start -->
+  <section id="clients_feedback">
+    <div class="container">
+      <div class="clients_content average_content text-center" data-aos="zoom-in">
+        <h6>
+          Clients words
+        </h6>
+        <h3>
+          What our clients say
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+      </div>
+      <div class="feedback mt-5" data-aos="fade-right">
+        <div class="feedback_item">
+          <div class="row">
+            <div class="col-lg-6 d-flex align-items-center">
+              <div class="feedback_text text-lg-start text-center">
+                <p>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                  accumsan lacus vel facilisis.”
+                </p>
+                <h5>
+                  fahim chowdhury
+                </h5>
+                <span>
+                  founder
+                </span>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="feedback_img text-lg-start text-center mt-lg-0 mt-5">
+                <img src="images/feedback.png" class="img-fluid" alt="image not found">
+                <div class="right_qoute">
+                  <img src="images/icon/001-right-quote.png" alt="images not found">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback_item">
+          <div class="row">
+            <div class="col-lg-6 d-flex align-items-center">
+              <div class="feedback_text text-lg-start text-center">
+                <p>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                  accumsan lacus vel facilisis.”
+                </p>
+                <h5>
+                  fahim chowdhury
+                </h5>
+                <span>
+                  founder
+                </span>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="feedback_img text-lg-start text-center mt-lg-0 mt-5">
+                <img src="images/feedback.png" class="img-fluid" alt="image not found">
+                <div class="right_qoute">
+                  <img src="images/icon/001-right-quote.png" alt="images not found">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback_item">
+          <div class="row">
+            <div class="col-lg-6 d-flex align-items-center">
+              <div class="feedback_text text-lg-start text-center">
+                <p>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                  accumsan lacus vel facilisis.”
+                </p>
+                <h5>
+                  fahim chowdhury
+                </h5>
+                <span>
+                  founder
+                </span>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="feedback_img text-lg-start text-center mt-lg-0 mt-5">
+                <img src="images/feedback.png" class="img-fluid" alt="image not found">
+                <div class="right_qoute">
+                  <img src="images/icon/001-right-quote.png" alt="images not found">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- global_team_section_start -->
+  <section id="global_team">
+    <div class="container">
+      <div class="global_content average_content text-center" data-aos="fade-right">
+        <h6>
+          Expert People
+        </h6>
+        <h3>
+          Global leadership team
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+      </div>
+      <div class="team_membar mt-5">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 team_membar_details mb-5" data-aos="fade-right">
+            <div class="team_membar_img">
+              <img src="images/image1.jpg" class="img-fluid" alt="image not found">
+              <div class="team_membar_social_profile">
+                <ul>
+                  <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team_membar_content text-sm-start text-center">
+              <h5 class="text-capitalize">
+                jerome le luel
+              </h5>
+              <span class="text-capitalize">
+                managing director
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 team_membar_details mb-5" data-aos="fade-down">
+            <div class="team_membar_img">
+              <img src="images/image2.jpg" class="img-fluid" alt="image not found">
+              <div class="team_membar_social_profile">
+                <ul>
+                  <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team_membar_content text-sm-start text-center">
+              <h5 class="text-capitalize">
+                andrew learoyd
+              </h5>
+              <span class="text-capitalize">
+                chief executive officer
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 team_membar_details mb-5" data-aos="fade-up">
+            <div class="team_membar_img">
+              <img src="images/image3.jpg" class="img-fluid" alt="image not found">
+              <div class="team_membar_social_profile">
+                <ul>
+                  <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team_membar_content text-sm-start text-center">
+              <h5 class="text-capitalize">
+                harry nelis
+              </h5>
+              <span class="text-capitalize">
+                technology officer
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 team_membar_details mb-5" data-aos="zoom-in">
+            <div class="team_membar_img">
+              <img src="images/image4.jpg" class="img-fluid" alt="image not found">
+              <div class="team_membar_social_profile">
+                <ul>
+                  <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team_membar_content text-sm-start text-center">
+              <h5 class="text-capitalize">
+                lucy vernall
+              </h5>
+              <span class="text-capitalize">
+                chief financial officer
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- success_story_section_start -->
+  <section id="success_story_section">
+    <div class="container">
+      <div class="average_content success_content text-center" data-aos="zoom-in">
+        <h6>
+          Recent news
+        </h6>
+        <h3>
+          Success story posts
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+      </div>
+      <div class="success_post mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-md-0 mb-5" data-aos="fade-right">
+            <div class="success_post_content">
+              <a href="#" class="post_link">
+                <div class="success_img">
+                  <img src="images/success1.jpg" class="img-fluid" alt="image not found">
+                </div>
+                <div class="success_img_content mt-4">
+                  <span>July 05, 2022</span>
+                  <h4>
+                    Financing loans available to small businesses
+                  </h4>
+                  <span class="ream_more text-capitalize">
+                    ream more
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-md-0 mb-5" data-aos="fade-down">
+            <div class="success_post_content">
+              <a href="#" class="post_link">
+                <div class="success_img">
+                  <img src="images/success2.jpg" class="img-fluid" alt="image not found">
+                </div>
+                <div class="success_img_content mt-4">
+                  <span>July 04, 2022</span>
+                  <h4>
+                    5 Ways you can prepare your business for success
+                  </h4>
+                  <span class="ream_more text-capitalize">
+                    ream more
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-md-0 mb-5" data-aos="fade-up">
+            <div class="success_post_content">
+              <a href="#" class="post_link">
+                <div class="success_img">
+                  <img src="images/success3.jpg" class="img-fluid" alt="image not found">
+                </div>
+                <div class="success_img_content mt-4">
+                  <span>July 03, 2022</span>
+                  <h4>
+                    Tips for saving money and better guide for investment
+                  </h4>
+                  <span class="ream_more text-capitalize">
+                    ream more
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer_section_start -->
+  <footer id="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6" data-aos="fade-right">
+          <img src="images/logo2.png" alt="image not found">
+          <p class="my-4">
+            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+          <div class="footer_social_icon d-flex">
+            <strong>
+              Follow us:
+            </strong>
+            <ul class="list-unstyled d-flex">
+              <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <h5>
+            quick links
+          </h5>
+          <hr>
+          <ul class="quick_links list-unstyled">
+            <li><a href="#">about</a></li>
+            <li><a href="#">our performance</a></li>
+            <li><a href="#">help (FAQ)</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-down">
+          <h5>
+            Other Resources
+          </h5>
+          <hr>
+          <ul class="other_links list-unstyled">
+            <li><a href="#">support</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">terms & condition</a></li>
+            <li><a href="#">business loan</a></li>
+            <li><a href="#">loan service</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="zoom-in">
+          <h5>
+            contact us
+          </h5>
+          <hr>
+          <div class="location d-flex">
+            <i class="fa fa-location-dot"></i>
+            <div class="address ms-3">
+              <p>
+                6890 Blvd, The Bronx, NY 1058 New York, USA
+              </p>
+            </div>
+          </div>
+          <div class="mail_contact d-flex align-items-center mb-4">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="mail ms-3">
+              <a href="#">hello@finix.com</a>
+            </div>
+          </div>
+          <div class="call_contact d-flex align-items-center mb-4">
+            <i class="fa-solid fa-phone-volume"></i>
+            <div class="number ms-3">
+              <a href="tel:01916160***">01916160***</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center footer_web_details mt-4">
+      Copyright &copy;2022 Finix. Designed By <span class="d-sm-inline d-block">Touhidul Islam Fahim</span>
+    </p>
+  </footer>
+
+  <!-- all_script_file -->
+  <script src="js/vendor/jquery.js"></script>
+  <!-- web_friendly_js -->
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/vendor/plugins.js"></script>
+  <!-- jquery_plugin_js -->
+  <script src="js/vendor/aos.js"></script>
+  <script src="js/vendor/slick.min.js"></script>
+  <script src="js/vendor/venobox.min.js"></script>
+  <script src="js/vendor/jquery.nice-select.min.js"></script>
+  <!-- custom_js -->
+  <script src="js/custom.js"></script>
+</body>
+</html>

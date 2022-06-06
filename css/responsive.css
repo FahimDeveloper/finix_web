@@ -1,0 +1,171 @@
+@media only screen and (max-width: 1024px) {
+
+    .professional_content p,
+    .clients_content p,
+    .global_content p,
+    .applynow_content p,
+    .success_content p {
+        width: 50%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .feedback .slick-dots {
+        top: 50%;
+        right: 5%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .header_content h1 {
+        font-size: 50px;
+    }
+
+    .professional_content p,
+    .clients_content p,
+    .global_content p,
+    .applynow_content p,
+    .success_content p {
+        width: 70%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+
+    .feedback_item .feedback_text p {
+        font-size: 18px;
+    }
+
+    .feedback_item .right_qoute {
+        left: 35%;
+    }
+
+    .feedback .slick-dots {
+        top: 70%;
+        right: 10%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #choose_section .fetures .marginTop {
+        margin-top: 0px;
+    }
+
+    .professional_content p,
+    .clients_content p,
+    .global_content p,
+    .applynow_content p,
+    .success_content p {
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .call-to-action-body h2 {
+        font-size: 30px;
+    }
+
+    .call-to-action-body a {
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .average_content h2 {
+        font-size: 30px;
+    }
+
+    .average_content h6 {
+        font-size: 18px;
+    }
+
+    .average_content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .average_content h3 {
+        font-size: 30px;
+    }
+
+    .img-fluid {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .feedback_item .feedback_text p {
+        font-size: 17px;
+    }
+
+    .feedback_item .right_qoute {
+        left: 25%;
+    }
+
+    .feedback .slick-dots {
+        top: 70%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #client_section {
+        min-height: 10vh;
+    }
+
+    #about,
+    #choose_section,
+    #applynow_section,
+    .call-to-action-body,
+    #company,
+    #professional_service,
+    #clients_feedback,
+    #global_team,
+    #success_story_section {
+        padding: 40px 0;
+    }
+
+    .step_timeline ul li strong {
+        font-size: 20px;
+    }
+
+    .call-to-action-body h2 {
+        font-size: 25px;
+    }
+
+    .call-to-action-body a {
+        font-size: 25px;
+    }
+
+    .average_content h2 {
+        font-size: 28px;
+    }
+
+    .average_content h6 {
+        font-size: 18px;
+    }
+
+    .average_content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .average_content h3 {
+        font-size: 28px;
+    }
+
+    .about_img_text {
+        width: 140px;
+        height: 140px;
+        right: 20px;
+    }
+
+    .about_img_text h3 {
+        font-size: 40px;
+    }
+
+    .about_img_text span {
+        font-size: 15px;
+    }
+}
